@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi & Muffin</title>
+    <style>
+        .bg-hero-section{
+            background-image: url('./pastery-bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            opacity: .8;
+        }
+    </style>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./logo.png" class="rounded-full">
+    <!--Tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--font from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--section-0: hero-section-->
+    <section class="py-10 bg-hero-section ">
+        <div class="mx-auto 2xl:container h-[100%]">
+            <div class="w-[90%] mx-auto grid grid-cols-1 h-[100%] ">
+                 <div class="flex flex-col items-center justify-center gap-5">
+                    <h1 class="font-[Roboto] font-semibold text-white text-[70px] leading-[40px] text-center mt-44">Mochi & Muffin</h1>
+                    <p class="font-[Roboto] font-semibold text-white text-[24px] leading-[40px] text-center"> let sweetness stay in your life! </p>
+                    <div class="space-x-3">
+                        <button class="font-[Poppins] text-[#fff] bg-sky-400 py-3 px-4 rounded-xl text-[18px] leading-[22px] font-medium border  hover:bg-sky-500" id="menu">View Menu</button>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!--section-1 : Why choose us-->
+    <section class="py-10 ">
+        <div class="mx-auto 2xl:container">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                    <h1 class="font-[Poppins] text-[#323f4b] text-[28px] leading-[34px] font-medium pt-2">Why Choose Us?</h1>
+                    <p class="font-[Poppins] text-[#7b8794] text-[16px] leading-[24px] font-normal py-3">We use both original recipes and classic versions of famous pastry items.</p>
+            </div>
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- card 1-->
+                <div class="bg-[white] border-[2px] border-grey-100 rounded-2xl p-5 flex flex-col items-center justify-center text-center">
+                    <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/food-serve.png" alt="serving-food" >
+                    <h4 class="font-[Poppins] text-[#323f4b] text-[22px] leading-[26px] font-medium pt-2">Food Service</h4>
+                    <p class="font-[Poppins] text-[#7b8794] text-[16px] leading-[24px] font-normal pt-3">Our team focuses on clean cooking practices, timely delivery, and customer comfort. Experience convenient ordering, multiple payment options, and reliable service.</p>
+                </div>
+                 <!-- card 2-->
+                <div class="bg-[white] border-[2px] border-grey-100  rounded-2xl p-5 flex flex-col items-center justify-center text-center">
+                    <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/fruits-img.png" alt="fruits" >
+                    <h4 class="font-[Poppins] text-[#323f4b] text-[22px] leading-[26px] font-medium pt-2">Fresh Food</h4>
+                    <p class="font-[Poppins] text-[#7b8794] text-[16px] leading-[24px] font-normal pt-3">Every item is prepared daily using clean, high-quality ingredients sourced from trusted suppliers, safety standards to keep flavors natural, pure, and wholesome.</p>
+                </div>
+                 <!-- card 3-->
+                <div class="bg-[white] border-[2px] border-grey-100  rounded-2xl p-5 flex flex-col items-center justify-center text-center">
+                    <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/offers-img.png" alt="offers" >
+                    <h4 class="font-[Poppins] text-[#323f4b] text-[22px] leading-[26px] font-medium pt-2">Best Offers</h4>
+                    <p class="font-[Poppins] text-[#7b8794] text-[16px] leading-[24px] font-normal pt-3">“Get the best deals every day — fresh, delicious, and budget-friendly.
+Grab your favorites now while the offer lasts!”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-2 Explore Menu-->
+     <section class="py-10 bg-sky-100" id="explore_menu">
+        <div class="mx-auto 2xl:container">
+         <div class="w-[90%] mx-auto grid grid-cols-1">
+                    <h1 class="font-[Poppins] text-[#183b56] text-[36px] leading-[34px] font-bold mb-6">Explore Menu</h1>
+            </div>
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <!-- muffins -->
+            <div class="p-5 bg-white border shadow-xl rounded-2xl">
+                <div class="flex items-center justify-center">
+                    <img src="./muffins.jpg" alt="muffins" class="h-64 w-100 rounded-[28px] mt-2">
+                </div>
+                <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium pt-5">Muffins</p>
+                <p class="pt-4 font-[Poppins] text-[#d4b70e]  text-[18px] leading-[21px] font-medium  hover:text-[20px] hover:text-[#968108fb] hover:cursor-pointer" onclick="openMuffinsPopup()">View All</p>
+                <div id="popupMuffins" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+                    <div class="bg-white shadow-lg p-7 rounded-xl">
+                        <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium p-8">Muffins</p>
+                        <p class="p-2 text-2xl font-bold"> Blueberry Muffin - ₹80/-</p>
+                        <p class="p-2 text-2xl font-bold"> Chocolate Chip Muffin - ₹70/-</p>
+                        <p class="p-2 text-2xl font-bold"> Banana Walnut Muffin - ₹90/-</p>
+                        <p class="p-2 text-2xl font-bold"> Red Velvet Muffin - ₹100/-</p>
+                        <p class="p-2 text-2xl font-bold"> Lemon Poppy Seed Muffin - ₹85/-</p>
+                        <button class="px-4 py-2 mt-4 text-white bg-red-600 rounded-2xl" onclick="closeMuffinsPopup()">CLOSE</button>
+                    </div>
+                </div> 
+            </div>
+            <!-- mochis -->
+            <div class="p-5 bg-white border shadow-xl rounded-2xl">
+                <div class="flex items-center justify-center">
+                    <img src="./mochi.jpg" alt="mochi" class="h-64 w-100 rounded-[28px] mt-2">
+                </div>
+                <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium pt-5">Mochis</p>
+                <p class="pt-4 font-[Poppins] text-[#d4b70e]  text-[18px] leading-[21px] font-medium  hover:text-[20px] hover:text-[#968108fb] hover:cursor-pointer" onclick="openMochisPopup()">View All</p>
+                <div id="popupMochis" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+                    <div class="bg-white shadow-lg p-7 rounded-xl">
+                        <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium p-8">Mochis</p>
+                        <p class="p-2 text-2xl font-bold"> Matcha Mochi - ₹120/-</p>
+                        <p class="p-2 text-2xl font-bold"> Mango Mochi - ₹100/-</p>
+                        <p class="p-2 text-2xl font-bold"> Strawberry Mochi	- ₹110/-</p>
+                        <p class="p-2 text-2xl font-bold"> Chocolate Mochi	- ₹110/-</p>
+                        <p class="p-2 text-2xl font-bold"> Coconut Mochi - ₹95/-</p>
+                        <button class="px-4 py-2 mt-4 text-white bg-red-600 rounded-2xl" onclick="closeMochisPopup()">CLOSE</button>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="p-5 bg-white border shadow-xl rounded-2xl">
+                <div class="flex items-center justify-center">
+                    <img src="./cupcakes.jpg" alt="cupcakes" class="h-64 w-100 rounded-[28px] mt-2">
+                </div>
+                <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium pt-5">Cupcakes</p>
+                <p class="pt-4 font-[Poppins] text-[#d4b70e]  text-[18px] leading-[21px] font-medium  hover:text-[20px] hover:text-[#968108fb] hover:cursor-pointer"onclick="openCupcakesPopup()">View All</p>
+                <div id="popupCupcakes" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+                    <div class="bg-white shadow-lg rounded-xl p-7">
+                        <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium p-8">Cupcakes</p>
+                        <p class="p-2 text-2xl font-bold"> Vanilla Frosted Cupcake - ₹80/-</p>
+                        <p class="p-2 text-2xl font-bold"> Dark Chocolate Cupcakes - ₹90/-</p>
+                        <p class="p-2 text-2xl font-bold"> Salted Caramel Cupcake - ₹110/-</p>
+                        <p class="p-2 text-2xl font-bold"> Oreo Cupcake	- ₹120/-</p>
+                        <p class="p-2 text-2xl font-bold"> Rose Pistachio Cupcake - ₹130/-</p>
+                        <button class="px-4 py-2 mt-4 text-white bg-red-600 rounded-2xl" onclick="closeCupcakesPopup()">CLOSE</button>
+                    </div>
+                </div> 
+            </div>
+
+             <div class="p-5 bg-white border shadow-xl rounded-2xl">
+                <div class="flex items-center justify-center">
+                    <img src="./crossiants.jpg" alt="croissants" class="h-64 w-100 rounded-[28px] mt-2">
+                </div>
+                <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium pt-5">Croissants</p>
+                <p class="pt-4 font-[Poppins] text-[#d4b70e]  text-[18px] leading-[21px] font-medium  hover:text-[20px] hover:text-[#968108fb] hover:cursor-pointer"onclick="openCroissantsPopup()">View All</p>
+                <div id="popupCroissants" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+                    <div class="bg-white shadow-lg rounded-xl p-7">
+                        <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium p-8">Croissants</p>
+                        <p class="p-2 text-2xl font-bold"> Classic Butter Croissant - ₹110/-</p>
+                        <p class="p-2 text-2xl font-bold"> Chocolate Croissant - ₹130/-</p>
+                        <p class="p-2 text-2xl font-bold"> Almond Croissant - ₹150/-</p>
+                        <p class="p-2 text-2xl font-bold"> Cheese Croissant - ₹140/-</p>
+                        <p class="p-2 text-2xl font-bold"> Strawberry Jam Croissant - ₹120/-</p>
+                        <button class="px-4 py-2 mt-4 text-white bg-red-600 rounded-2xl" onclick="closeCroissantsPopup()">CLOSE</button>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="p-5 bg-white border shadow-xl rounded-2xl">
+                <div class="flex items-center justify-center">
+                    <img src="./pudding.jpg" alt="pudding" class="h-64 w-100 rounded-[28px] mt-2">
+                </div>
+                <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium pt-5">Puddings / Custards</p>
+                <p class="pt-4 font-[Poppins] text-[#d4b70e]  text-[18px] leading-[21px] font-medium  hover:text-[20px] hover:text-[#968108fb] hover:cursor-pointer"onclick="openPuddingsPopup()">View All</p>
+                <div id="popupPuddings" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+                    <div class="bg-white shadow-lg rounded-xl p-7">
+                        <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium p-8">Puddings / Custards</p>
+                        <p class="p-2 text-2xl font-bold"> Caramel Custard - ₹80/-</p>
+                        <p class="p-2 text-2xl font-bold"> Chocolate Pudding - ₹90/-</p>
+                        <p class="p-2 text-2xl font-bold"> Mango Pudding - ₹85/-</p>
+                        <p class="p-2 text-2xl font-bold"> Matcha Cream Pudding - ₹120/-</p>
+                        <p class="p-2 text-2xl font-bold"> Vanilla Bean Pudding	- ₹95/-</p>
+                        <button class="px-4 py-2 mt-4 text-white bg-red-600 rounded-2xl" onclick="closePuddingsPopup()">CLOSE</button>
+                    </div>
+                </div> 
+            </div>
+
+           
+            <div class="p-5 bg-white border shadow-xl rounded-2xl">
+                <div class="flex items-center justify-center">
+                    <img src="./cookies.jpg" alt="cookies" class="h-64  w-100 rounded-[28px] mt-2">
+                </div>
+                <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium pt-5">Cookies</p>
+                <p class="pt-4 font-[Poppins] text-[#d4b70e]  text-[18px] leading-[21px] font-medium  hover:text-[20px] hover:text-[#968108fb] hover:cursor-pointer"onclick="openCookiesPopup()">View All</p>
+                <div id="popupCookies" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+                    <div class="bg-white shadow-lg rounded-xl p-7">
+                        <p class="font-[Poppins] text-[#323f4b] text-center text-[28px] leading-[22px] font-medium p-8">Cookies</p>
+                        <p class="p-2 text-2xl font-bold"> Choco Chunk Cookie - ₹50/-</p>
+                        <p class="p-2 text-2xl font-bold"> Red Velvet Cookie - ₹60/-</p>
+                        <p class="p-2 text-2xl font-bold"> Peanut Butter Cookie - ₹55/-</p>
+                        <p class="p-2 text-2xl font-bold"> Matcha White Chocolate Cookie - ₹70 /-</p>
+                        <p class="p-2 text-2xl font-bold"> Oatmeal Raisin Cookie - ₹50/-</p>
+                        <button class="px-4 py-2 mt-4 text-white bg-red-600 rounded-2xl" onclick="closeCookiesPopup()">CLOSE</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+     </section>
+     
+     <!--section -3 pastry-->
+     <section class="py-10 bg-[#f9fbfe]">
+        <div class="mx-auto 2xl:container">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 ">
+                <div class="flex items-center justify-center felx-row">
+                    <img src="./freshfood.jpg" alt="health section" height="40%"width="60%">
+                </div>
+                <div class=" space-y-7 mt-[60px]">
+                    <p class="font-[Poppins] text-[#212529] text-[28px] leading-[40px] font-bold mt-20 ">The Art of Pastry Making</p>
+                    <p class="font-[Poppins] text-[#183b56] text-[16px] leading-[28px] font-normal">Each pastry begins with technique, patience, and a passion for perfection. From selecting quality ingredients to crafting balanced flavors, every step is handled with care. Our bakers focus on precision, texture, and consistency to deliver a truly satisfying bite. We blend classic methods with modern creativity, ensuring fresh, flavorful results every day. Discover desserts made not just to taste good, but to inspire moments of joy.</p>
+                    <button class="font-[Poppins] text-[#fff] bg-sky-400 py-3 px-4 rounded-xl text-[18px] leading-[22px] font-medium border  hover:bg-sky-500 " id="video" >Video</button>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--section -4 delivery and payment-->
+     <section class="py-10">
+        <div class="mx-auto 2xl:container">
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2">
+                <div class="space-y-3 space-x-9">
+                    <p class="font-[Poppins] text-[#212529] text-[28px] leading-[40px] font-bold ml-9">Delivery and Payment</p>
+                    <p class="font-[Poppins] text-[#183b56] text-[16px] leading-[30px] font-normal">Enjoy seamless delivery right to your doorstep with fast, reliable service you can trust.Choose from multiple secure payment options including UPI, card, and wallet payments.Track your order in real time and stay updated every step of the way.We ensure safe handling, hygienic packaging, and on-time delivery.Shop with confidence and experience a smooth, hassle-free checkout every time.</p>
+                    <div class="flex flex-row h-16 gap-10">
+                        <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/visa-card-img.png" alt="visa" height="20px">
+                        <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/master-card-img.png" alt="master"height="20px">
+                        <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/paypal.png" alt="paypal" height="20px">
+                    </div>
+                </div>
+                <div class="flex flex-row items-center justify-center " >
+                    <img src="https://ik.imagekit.io/9jskk4vct8/mern_basics/delivery-payment-section-img.png"alt="delivery-payment-section" class="h-56">
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--section-5: follow us-->
+    <section class="py-10 bg-sky-100">
+        <div class="mx-auto 2xl:container">
+            <div class="w-[90%] mx-auto grid grid-cols-1">
+                <p class="font-[Roboto] font-bold text-[#183b56] text-[25px] leading-9 text-center mt-2">Follow Us</p>
+                <div class="flex items-center justify-center gap-12 mt-3">
+                    <div class="flex flex-row items-center justify-center w-14 h-14 rounded-full bg-[grey] hover:bg-[#acacac] cursor-pointer " id="youtube">
+                        <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24"width="40px" height="40px" ><g fill="none" stroke="currentColor" strokeWidth="1.5"><path fill="currentColor" strokeLinecap="round"strokeLinejoin="round"d="m14 12l-3.5 2v-4z"></path><path d="M2 12.708v-1.416c0-2.895 0-4.343.905-5.274c.906-.932 2.332-.972 5.183-1.053C9.438 4.927 10.818 4.9 12 4.9s2.561.027 3.912.065c2.851.081 4.277.121 5.182 1.053S22 8.398 22 11.292v1.415c0 2.896 0 4.343-.905 5.275c-.906.931-2.331.972-5.183 1.052c-1.35.039-2.73.066-3.912.066s-2.561-.027-3.912-.066c-2.851-.08-4.277-.12-5.183-1.052S2 15.602 2 12.708Z"></path></g></svg>
+                    </div>
+                    <div class="flex flex-row items-center justify-center rounded-full bg-[grey] w-14 h-14 hover:bg-[#acacac] cursor-pointer"id="insta">
+                    <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24"width="30px" height="30px">
+                        <path fill="currentColor" d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388a5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947s.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911c.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552c1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388a5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912c.056-1.28.07-1.69.063-4.948c-.006-3.258-.02-3.667-.081-4.947c-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123a5.9 5.9 0 0 0-2.128-1.38c-.764-.294-1.636-.496-2.914-.55C15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895a3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228c-.06-1.264-.072-1.644-.08-4.848c-.006-3.204.006-3.583.061-4.848c.05-1.169.246-1.805.408-2.228c.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417c1.265-.06 1.644-.072 4.848-.08c3.203-.006 3.583.006 4.85.062c1.168.05 1.804.244 2.227.408c.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227c.06 1.265.074 1.645.08 4.848c.005 3.203-.006 3.583-.061 4.848c-.051 1.17-.245 1.805-.408 2.23c-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418c-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442a1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024a6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16A4 4 0 0 1 8 12.008"></path >
+                    </svg>
+                    </div>
+                    <div class="bg-[grey] w-14 h-14 rounded-full flex flex-row justify-center items-center hover:bg-[#acacac] cursor-pointer"id="fb">
+                        <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24"width="40px" height="40px">
+                            <path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" ></path>
+                        </svg>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section-6: footer-->
+    <section class="py-10 bg-[#0d2436]">
+        <div class="mx-auto 2xl:container">
+            <div class="w-[90%] mx-auto grid grid-cols-1 ">
+                <div class="space-y-3 text-center">
+                    <div class="flex flex-row items-center justify-center"><img src="./logo.png" alt="mochi&muffin" class="rounded-full h-14"></div>
+                    <p class="font-[Poppins] text-[#859ead] text-[16px] leading-[19px] font-bold">orderfood @ mochi&muffin.com</p>
+                    <p class="font-[Poppins] text-[#859ead] text-[16px] leading-[19px] font-bold">Vijaya nagar, Velachery, Chennai-India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        
+        let Menu = document.getElementById("menu")
+        Menu.addEventListener("click", () => {
+        document.getElementById("explore_menu").scrollIntoView({ behavior: "smooth" })
+        });
+        
+        let Video = document.getElementById("video")
+        Video.addEventListener("click", () => {
+            window.open("https://youtu.be/bO7X68uoZ6M", "_blank");
+        });
+
+        let YT = document.getElementById("youtube") 
+        YT.addEventListener("click", () => {
+            window.open("https://youtu.be/bO7X68uoZ6M", "_blank");
+        });
+        let Insta = document.getElementById("insta")
+        Insta.addEventListener("click", () => {
+            window.open("https://www.instagram.com/thecreativewings/?utm_source=chatgpt.com", "_blank");
+        });
+        let Fb = document.getElementById("fb")
+        Fb.addEventListener("click", () => {
+            window.open("https://www.facebook.com/madrassamayal/?utm_source=chatgpt.com", "_blank");
+        });
+       
+    </script>
+
+
+<!-- pop ups -->
+    <script>
+        //muffins
+        function openMuffinsPopup() {
+            document.getElementById('popupMuffins').classList.remove('hidden')
+        }
+        function closeMuffinsPopup() {
+            document.getElementById('popupMuffins').classList.add('hidden')
+        }
+        //mochis
+        function openMochisPopup() {
+            document.getElementById('popupMochis').classList.remove('hidden')
+        }
+        function closeMochisPopup() {
+            document.getElementById('popupMochis').classList.add('hidden')
+        }
+        //Cupcakes
+        function openCupcakesPopup() {
+            document.getElementById('popupCupcakes').classList.remove('hidden')
+        }
+        function closeCupcakesPopup() {
+            document.getElementById('popupCupcakes').classList.add('hidden')
+        }
+        //Croissants
+        function openCroissantsPopup() {
+            document.getElementById('popupCroissants').classList.remove('hidden')
+        }
+        function closeCroissantsPopup() {
+            document.getElementById('popupCroissants').classList.add('hidden')
+        }
+        //Puddings
+        function openPuddingsPopup() {
+            document.getElementById('popupPuddings').classList.remove('hidden')
+        }
+        function closePuddingsPopup() {
+            document.getElementById('popupPuddings').classList.add('hidden')
+        }
+        //cookies
+        function openCookiesPopup() {
+            document.getElementById('popupCookies').classList.remove('hidden')
+        }
+        function closeCookiesPopup() {
+            document.getElementById('popupCookies').classList.add('hidden')
+        }
+       
+    </script>
+</body>
+</html>
